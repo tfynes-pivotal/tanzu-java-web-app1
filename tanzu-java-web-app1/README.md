@@ -1,4 +1,4 @@
-# tjwa1
+# tanzu-java-web-app1
 
 This is a sample of a Java Spring app that works with Tilt and the Tanzu Application Platform.
 

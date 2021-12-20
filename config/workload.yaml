@@ -1,0 +1,15 @@
+apiVersion: carto.run/v1alpha1
+kind: Workload
+metadata:
+  name: tjwa1
+  labels:
+    apps.tanzu.vmware.com/workload-type: web
+spec:
+  params:
+    - name: run-image
+      value: harbor.homelab.fynesy.com/test/tjwa1
+  source:
+    git:
+      url: https://github.com/sample-accelerators/tanzu-java-web-app
+      ref:
+        branch: main
